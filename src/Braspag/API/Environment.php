@@ -15,8 +15,8 @@ class Environment
 
     public static function sandbox()
     {
-        $api = 'https://apisandbox.braspag.com.br/';
-        $apiQuery = 'https://apiquerysandbox.braspag.com.br/';
+          $api = 'https://apihomolog.braspag.com.br/';
+        $apiQuery = 'https://apiqueryhomolog.braspag.com.br/';
 
         return new Environment($api, $apiQuery);
     }
